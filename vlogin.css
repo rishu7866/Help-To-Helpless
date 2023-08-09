@@ -1,0 +1,60 @@
+body {
+    background: url('./ray-sangga-kusuma-7uSrOyY1U0I-unsplash.jpg') no-repeat;
+    background-size: cover;
+}
+
+.right img {
+    /* width: 12%; */
+    justify-content: right;
+    justify-items: right;
+    /* margin-top: -5%; */
+}
+
+.vlogin-form {
+    width: 350px;
+    top: 50%;
+    /* left: 50%; */
+    transform: translate(30%, -50%);
+    position: absolute;
+    color: #fff;
+}
+
+.vlogin-form p {
+    font-size: 20px;
+    margin: 15px 0;
+    font-weight: bold;
+    color: darkorange;
+}
+
+.vlogin-form input {
+    font-size: 18px;
+    width: 100%;
+    padding: 30px 10px;
+    padding: 30px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 8px;
+    color: red;
+    background: url('./helpp.jpeg') no-repeat;
+    height: 5vh;
+    background-size: cover;
+}
+
+.vlogin-form::placeholder {
+    color: aqua;
+    font-weight: bold;
+}
+
+.vlogin-form input:last-of-type {
+    font-size: 25px;
+    width: 15vh;
+    height: 15vh;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin: 20px 40%;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    background: transparent;
+}

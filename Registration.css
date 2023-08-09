@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.regg {
+    background: url(./next\ \(3\).jpg) no-repeat;
+    background-size: cover;
+}
+
+.welcome img {
+    display: flex;
+    width: 30%;
+    height: 5%;
+}
+
+.var {
+    background: rgba(255, 255, 255, 0.185);
+    opacity: 0.2px;
+    width: 500px;
+    /* margin-top: 0%; */
+    padding: 8px 2px 5px;
+    margin: 8px auto 0;
+    border-top: 5px solid blue;
+    box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.5);
+}
+
+.var h2 {
+    font-size: 24px;
+    line-height: 24px;
+    margin-left: 30%;
+    margin-top: -10%;
+}
+
+.input-name {
+    width: 90%;
+    position: relative;
+    margin: 4px auto;
+}
+
+.lock {
+    padding: 8px 11px;
+}
+
+.input-name {
+    margin-left: 35px;
+}
+
+.text-name {
+    width: 100%;
+    padding: 8px 0 8px 40px;
+}
+
+.input-name i {
+    position: absolute;
+    font-size: 18px;
+    color: blue;
+    border-right: 1px solid #cccccc;
+}
+
+.email {
+    padding: 8px;
+}
+
+.user {
+    padding: 8px;
+}
+
+.mobile {
+    padding: 8px;
+}
+
+.text-name {
+    border: 5px solid #cccccc;
+}
+
+.input-name input:last-of-type {
+    margin-left: 40%;
+}
+
+.al a {
+    text-decoration: none;
+}

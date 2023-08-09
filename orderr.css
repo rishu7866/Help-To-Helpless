@@ -1,0 +1,31 @@
+/* .or {
+    margin-top: -5%;
+} */
+
+.bar {
+    background: url(./mast.jpg) no-repeat;
+    background-size: cover;
+    color: white;
+    font-weight: bold;
+}
+
+.tab {
+    /* background-color: rgba(240, 248, 255, 0.055);
+    color: white; */
+    font-weight: bold;
+}
+
+
+/* .chota img {
+    width: 150px;
+} */
+
+nav {
+    color: white;
+}
+
+.pic img {
+    width: 150px;
+    /* background-repeat: no-repeat; */
+    /* background-size: contain; */
+}

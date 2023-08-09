@@ -1,0 +1,103 @@
+/*     {}       */
+
+.welcome {
+    background: transparent;
+    margin-top: -2%;
+}
+
+.center h1 {
+    font-size: 30px;
+    color: white;
+    margin-top: -7%;
+    font-weight: bold;
+    justify-content: center;
+    justify-items: center;
+    /* margin-bottom: 2px; */
+    margin-left: 10%;
+    text-align: center;
+}
+
+.welcome img {
+    display: flex;
+    width: 15%;
+    height: 15%;
+    margin-top: 5%;
+    margin-left: 8%;
+    background-color: #fff;
+}
+
+.bod {
+    background: url(./login.jpg) no-repeat;
+    background-size: cover;
+}
+
+
+/* form */
+
+* {
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.login-form {
+    width: 350px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    color: #fff;
+}
+
+.login-form p {
+    font-size: 20px;
+    margin: 15px 0;
+    font-weight: bold;
+    color: darkorange;
+}
+
+.login-form input {
+    font-size: 18px;
+    width: 160%;
+    padding: 30px 10px;
+    padding: 30px 10px;
+    border: 0;
+    outline: none;
+    border-radius: 8px;
+    color: red;
+    background: url('./helpp.jpeg') no-repeat;
+    height: 5vh;
+    background-size: cover;
+}
+
+.login-form::placeholder {
+    color: aqua;
+    font-weight: bold;
+}
+
+.login-form input:last-of-type {
+    font-size: 25px;
+    width: 15vh;
+    height: 5vh;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    margin: 20px 40%;
+    border: 0;
+    outline: none;
+    border-radius: 5px;
+    background: transparent;
+}
+
+.check a {
+    text-decoration: none;
+    font-size: 25px;
+    color: chocolate;
+    font-weight: bold;
+}
+
+.check label {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+}

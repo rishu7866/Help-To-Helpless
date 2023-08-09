@@ -1,0 +1,66 @@
+.bc {
+    background: url(./bc.jpg) repeat;
+    background-size: cover;
+}
+
+.firstsec label {
+    color: red;
+    font-weight: bold;
+}
+
+.firstsec input {
+    background-color: transparent;
+    color: red;
+}
+
+.firstsec {
+    margin-top: -1%;
+}
+
+.firstsec input:last-of-type {
+    width: 10%;
+    margin-left: 2%;
+    margin-top: 2%;
+    color: red;
+    font-weight: bold;
+}
+
+.tab {
+    background-color: rgba(240, 248, 255, 0.055);
+    color: white;
+    font-weight: bold;
+}
+
+.mob {
+    font-size: 12px;
+}
+
+.pic img {
+    width: 150px;
+    /* background-repeat: no-repeat; */
+    /* background-size: contain; */
+}
+
+.container {
+    margin-top: 2%;
+}
+
+.container label {
+    color: white;
+    font-weight: bold;
+}
+
+.container input {
+    color: red;
+    font-weight: bold;
+}
+
+.thirdcon label {
+    color: white;
+    font-weight: bold;
+}
+
+.thirdcon {
+    margin-left: 85%;
+    margin-top: -2%;
+}

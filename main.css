@@ -1,0 +1,129 @@
+.to p {
+    margin-top: 1%;
+    font-size: 20px;
+    color: crimson;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgba(231, 91, 9, 0.671);
+    background-image: linear-gradient(to right, aqua, yellow, red);
+    width: 80%;
+    box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.5);
+    /* opacity: 0.5; */
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial;
+}
+
+.welcome img {
+    width: 10%;
+    height: 10%;
+    margin-top: 5px;
+    margin-left: 2%;
+    background-color: #fff;
+}
+
+.right img {
+    width: 12%;
+    margin-left: 83%;
+    margin-top: -5%;
+}
+
+.navbar navbar-expand-lg navbar-light bg-light h1 {
+    align-items: center;
+    color: aqua;
+}
+
+#loaderr {
+    border: 16px solid #f3f3f3;
+    border-radius: 50%;
+    border-top: 16px solid #3498db;
+    border-right: 16px solid green;
+    border-bottom: 16px solid red;
+    width: 120px;
+    height: 120px;
+    margin-left: 50%;
+    margin-top: 20%;
+    z-index: 100;
+    position: fixed;
+    -webkit-animation: spin 3s linear;
+    animation: spin 3s linear;
+    animation-duration: 6s;
+}
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+    100% {
+        -webkit-transform: rotate(360deg);
+    }
+}
+
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 5px;
+}
+
+.column img {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.column img:hover {
+    opacity: 1;
+}
+
+
+/* .row:after {
+    content: "";
+    display: table;
+    clear: both;
+} */
+
+.row {
+    align-items: center
+}
+
+.container {
+    position: relative;
+    display: none;
+}
+
+#imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+}
+
+.closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
+}
+
+.need {
+    text-align: center;
+    font-weight: bold;
+    color: red;
+}

@@ -1,0 +1,84 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.bod {
+    /* font-size: 14px; */
+    background: url('./goodd.jpg') no-repeat;
+    background-size: cover;
+}
+
+.navv {
+    background: transparent;
+}
+
+.form-det {
+    background: transparent;
+    width: 90%;
+    padding: 8px;
+    margin: 20px auto 0;
+    border-top: 5px solid blue;
+    box-shadow: 0 0 7px 5px rgba(0, 0, 0, 0.308);
+}
+
+.form-det p {
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+    padding: 8px;
+    margin-left: 30%;
+}
+
+.form-det button {
+    font-size: 20px;
+    color: red;
+    margin-left: 50%;
+}
+
+.form-det input {
+    width: 100%;
+    font-size: 18px;
+    border: 0;
+    outline: none;
+    border-radius: 5px solid;
+    padding: 8px 10px 8px 10px;
+    background-color: rgba(216, 210, 210, 0.473);
+    color: red;
+}
+
+.laftform input::placeholder {
+    color: rgb(241, 6, 6);
+    font-weight: bold;
+}
+
+.laftform input:last-of-type {
+    background-color: rgba(216, 210, 210, 0.473);
+    width: 50%;
+}
+
+.laftform input {
+    width: 50%;
+    padding: 10px 10px 8px 10px;
+}
+
+.rightform {
+    margin-left: 55%;
+    width: 50%;
+    margin-top: -27%;
+}
+
+.rightform placeholderhover {
+    color: aqua;
+}
+
+.rightform input {
+    width: 90%;
+    padding: 12px 10px 8px 10px;
+}
+
+.rightform input::placeholder {
+    color: rgb(241, 6, 6);
+    font-weight: bold;
+}
